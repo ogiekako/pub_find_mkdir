@@ -3,7 +3,7 @@
 # [1] https://en.wikipedia.org/wiki/Tag_system#Example:_A_simple_2-tag_illustration
 
 TMP="$(mktemp -d)"
-cd "$TMP" # For safety.
+cd "$TMP" || exit 1 # For safety.
 
 # Start of the main program
 

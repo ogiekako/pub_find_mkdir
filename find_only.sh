@@ -8,7 +8,7 @@
 # Output: c0 = 7
 
 TMP="$(mktemp -d)"
-cd "$TMP" # For safety.
+cd "$TMP" || exit 1 # For safety.
 
 # Start of the main program
 
