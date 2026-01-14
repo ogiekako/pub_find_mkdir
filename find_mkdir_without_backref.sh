@@ -1,5 +1,5 @@
 #!/bin/bash
-# Simulate a 2-tag system example [1] in find + mkdir without back-references.
+# Simulate a 2-tag system example [1] in GNU find + mkdir without back-references.
 # [1] https://en.wikipedia.org/wiki/Tag_system#Example:_A_simple_2-tag_illustration
 
 TMP="$(mktemp -d)"
